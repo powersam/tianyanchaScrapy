@@ -32,6 +32,7 @@
 #### 懒人专享 一键docker
 1、安装docker-略  
 2、下载docker镜像：https://pan.baidu.com/s/1JU9xqbsDkYh-3ehhiuK1Jg  (需要安装Mysql,redis,mongo 并zai mode.py 中修改成 mysql+pymysql://root:root_password)
+
 3、加载镜像(耗时)：docker load -i  centos7:python3.tar    
 4、创建并运行容器：docker  run -itd -p 8002:8001 -p 6802:6800  --privileged=true  centos7:python3  /usr/sbin/init  
 5、访问gerapy管理部署爬虫： http://IP:8002/    
