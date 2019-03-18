@@ -48,6 +48,7 @@
 
 #### 使用说明
 1、纯脚本运行：Python run.py    (centos7 docker 运行Unhandled error in Deferred: 未解决,待解决中)
+
 2、gerapy 爬虫管理平台： 部署、启动停止删除爬虫 -略    
 
 #### gerapy管理平台
