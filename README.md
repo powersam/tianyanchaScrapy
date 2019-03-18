@@ -31,7 +31,7 @@
 
 #### 懒人专享 一键docker
 1、安装docker-略  
-2、下载docker镜像：https://pan.baidu.com/s/1JU9xqbsDkYh-3ehhiuK1Jg  
+2、下载docker镜像：https://pan.baidu.com/s/1JU9xqbsDkYh-3ehhiuK1Jg  (需要安装Mysql,redis,mongo 并zai mode.py 中修改成 mysql+pymysql://root:root_password)
 3、加载镜像(耗时)：docker load -i  centos7:python3.tar    
 4、创建并运行容器：docker  run -itd -p 8002:8001 -p 6802:6800  --privileged=true  centos7:python3  /usr/sbin/init  
 5、访问gerapy管理部署爬虫： http://IP:8002/    
@@ -46,7 +46,7 @@
  ![docker_python3](https://github.com/TonyK-T/github_images/blob/master/docker/docker_Python3.png) 
 
 #### 使用说明
-1、纯脚本运行：Python run.py    
+1、纯脚本运行：Python run.py    (centos7 docker 运行Unhandled error in Deferred: 未解决,待解决中)
 2、gerapy 爬虫管理平台： 部署、启动停止删除爬虫 -略    
 
 #### gerapy管理平台
